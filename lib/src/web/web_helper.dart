@@ -15,7 +15,11 @@ import 'package:uuid/uuid.dart';
 ///Copyright (c) 2019 Rene Floor
 ///Released under MIT License.
 
-const statusCodesNewFile = [HttpStatus.ok, HttpStatus.accepted];
+const statusCodesNewFile = [
+  HttpStatus.ok,
+  HttpStatus.accepted,
+  HttpStatus.partialContent
+];
 const statusCodesFileNotChanged = [HttpStatus.notModified];
 
 class WebHelper {
